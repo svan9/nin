@@ -3,19 +3,7 @@
 #include "types.h"
 #include "state.h"
 
-namespace nin {	
-	typedef size_t(*runtime_function)(State*);
-	// template<typename T>
-	// class NinFunction {
-	// 	friend class State;
-	// private:
-	// 	runtime_function processor;
-	// public:
-	// 	////////////////////////////////////////////////////////////
-	// 	NinFunction() {}
-
-	// };
-	
+namespace nin {		
 	class BaseFunction {
 	private:
 		State* st;

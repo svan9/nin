@@ -9,3 +9,7 @@
 
 typedef unsigned long long size_t; 
 typedef size_t poffset;
+namespace nin {
+	class State;
+	typedef size_t(*runtime_function)(State*);
+}

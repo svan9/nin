@@ -49,13 +49,4 @@ namespace nin {
 	typedef Primitive<int>     Integer;
 	typedef Primitive<double>  Double;
 	typedef Primitive<float>   Float;
-
-	// template<typename T>
-	// class Function<T(void)> {
-	// typedef T(*t_function)(void);
-	// private:
-	// public:
-	// 	////////////////////////////////////////////////////////////
-	// 	Function() {}
-	// };
 }
